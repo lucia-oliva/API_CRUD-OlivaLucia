@@ -7,7 +7,6 @@
 
 ## Endpoints
 
-### 1. Registrar participante
 **POST** `/api/eventos/:id/registrar`  
 
 **GET** `/api/eventos/disponibles`
