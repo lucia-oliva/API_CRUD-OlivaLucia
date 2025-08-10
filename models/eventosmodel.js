@@ -6,7 +6,10 @@ const eventoSchema = new Schema({
   descripcion: { type: String },
   fecha: { type: Date, required: true },
   lugar: { type: String },
-  participantes: [{ nombre: String, email: String }],
+  participantes: [{
+    nombre: { type: String},
+    email:  { type: String}
+  }],
   capacidadMaxima: { type: Number },
   entradasDisponibles: { type: Number }
 });
